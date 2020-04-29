@@ -1,0 +1,182 @@
+.row {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: left;
+}
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.wrapper.grey {
+  background-color: lightgrey;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* MEDIAQUERY */
+@media screen and (max-width: 767px) {
+  #why img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  #steps .col-xs-12 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  #steps {
+    margin-bottom: 20%;
+  }
+
+  #lezioni .col-xs-12 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  #lezioni .col-xs-12:last-of-type {
+    margin-bottom: 20%;
+  }
+
+  .row {
+    margin-top: 2%;
+  }
+
+  h1 {
+    margin-bottom: 4%;
+    padding-top: 6.5%;
+  }
+
+  #why h1 {
+    margin-bottom: 10%;
+  }
+
+  body {
+    font-size: 2em;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #why img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  #steps .col-md-12 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  #steps {
+    margin-bottom: 20%;
+  }
+
+  #lezioni .col-md-12 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  #lezioni .col-md-12:last-of-type {
+    margin-bottom: 20%;
+  }
+
+  .row {
+    margin-top: 2%;
+  }
+
+  h1 {
+    margin-bottom: 4%;
+    padding-top: 6.5%;
+  }
+
+  #why h1 {
+    margin-bottom: 10%;
+  }
+
+  body {
+    font-size: 1.7em;
+  }
+
+}
+
+@media screen and (min-width: 992px)
+  h1 {
+    margin-bottom: 2.3%;
+  }
+
+  h3 {
+    padding: 1.5% 0;
+  }
+
+  .col-lg-12 {
+    margin-bottom: 15%;
+  }
+
+  hr {
+    margin-top: 1%;
+  }
+
+  body {
+    font-size: 1.5em;
+  }
+}
