@@ -110,9 +110,9 @@ img {
     padding-bottom: 1%;
   }
 
-  #steps .col-md-12 {
-    padding-top: 10%;
-    padding-bottom: 10%;
+  #steps .col-md-6 {
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   #steps {
@@ -155,6 +155,10 @@ img {
 
   hr {
     margin-top: 1%;
+  }
+
+  #steps .offset-md-3 {
+    margin-top: 2%;
   }
 }
 
