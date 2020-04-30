@@ -142,6 +142,11 @@
   .offset-xs-12 {
     margin-left: calc((100% / 12) * 12);
   }
+
+  /* display none */
+  .xs-display-none {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -241,6 +246,11 @@
   .offset-md-12 {
     margin-left: calc((100% / 12) * 12);
   }
+
+    /* display none */
+    .md-display-none {
+      display: none;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -339,6 +349,11 @@
 
   .offset-lg-12 {
     margin-left: calc((100% / 12) * 12);
+  }
+
+  /* display none */
+  .lg-display-none {
+    display: none;
   }
 }
 /* FINE FRAMEWORK */
