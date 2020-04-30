@@ -48,10 +48,6 @@ img {
   height: 200px;
 }
 
-.clear {
-  clear: both;
-}
-
 /* MEDIAQUERY */
 @media screen and (max-width: 767px) {
   #why img {
